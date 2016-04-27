@@ -26,6 +26,22 @@ body {
 
 }
 
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+/*  background-color: #fdf196;*/
+  display: block;
+  position: fixed;
+}
+
+#page-content {
+  margin-left: 200px;
+}
+
+
 a {
   color: #8B8989;
   text-decoration: none;
@@ -120,7 +136,24 @@ a:hover {
   line-height: 40px;
 }
 
-/*.fa-envelope {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-}*/
+#sidebar > ul {
+  padding-left: 25px;
+  margin-top: 70px;
+}
+
+#sidebar > ul > li {
+  margin-top: 40px;
+}
+
+#sidebar > ul > li > a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #FDF196;
+  text-shadow: 3px 3px #98e5ec;
+}
+
+#sidebar > ul > li > a:hover {
+  color: #FDF196;
+  text-shadow: 5px 5px #98e5ec;
+}
