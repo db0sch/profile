@@ -58,6 +58,7 @@ h1 {
   /*color: #235789;*/
   color: #98e5ec;
   text-shadow: 5px 5px #FDF196;
+  transition: all 0.3s ease;
 }
 
 h1:hover {
@@ -151,6 +152,7 @@ a:hover {
   font-weight: bolder;
   color: #FDF196;
   text-shadow: 3px 3px #98e5ec;
+  transition: all 0.3s ease;
 }
 
 #sidebar > ul > li > a:hover {
